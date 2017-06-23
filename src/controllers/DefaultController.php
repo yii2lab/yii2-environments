@@ -2,10 +2,10 @@
 
 namespace yii2module\environments\controllers;
 
-use woop\extension\console\yii\console\Controller;
+use yii2lab\console\yii\console\Controller;
 use yii2module\environments\helpers\Environments;
-use woop\extension\console\helpers\Output;
-use woop\extension\console\helpers\input\Question;
+use yii2lab\console\helpers\Output;
+use yii2lab\console\helpers\input\Question;
 
 class DefaultController extends Controller
 {
