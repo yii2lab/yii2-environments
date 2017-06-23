@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2lab\environments\controllers;
+namespace yii2module\environments\controllers;
 
 use woop\extension\console\yii\console\Controller;
-use yii2lab\environments\helpers\Environments;
+use yii2module\environments\helpers\Environments;
 use woop\extension\console\helpers\Output;
 use woop\extension\console\helpers\input\Question;
 
