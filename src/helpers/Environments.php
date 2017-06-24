@@ -2,7 +2,7 @@
 
 namespace yii2module\environments\helpers;
 
-use woop\foundation\yii\helpers\FileHelper;
+use yii2lab\helpers\yii\FileHelper;
 
 class Environments
 {
