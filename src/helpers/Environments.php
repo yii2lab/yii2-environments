@@ -30,6 +30,7 @@ class Environments
 	{
 		$dir = ROOT_DIR . DS . 'environments' . DS . $name;
 		$fileList = FileHelper::findFilesWithPath($dir);
+		
 		$map = [];
 		foreach($fileList as $file) {
 			$source = ROOT_DIR . DS . $file;
