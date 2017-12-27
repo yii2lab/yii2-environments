@@ -7,7 +7,7 @@ use yii2lab\helpers\yii\FileHelper;
 class Environments
 {
 	
-	public function update($name = 'dev')
+	public static function update($name = 'dev')
 	{
 		$dir = ROOT_DIR . DS . 'environments' . DS . $name;
 		$fileList = FileHelper::findFilesWithPath($dir);
@@ -26,7 +26,7 @@ class Environments
 		return $map;
 	}
 
-	public function delete($name = 'dev')
+	public static function delete($name = 'dev')
 	{
 		$dir = ROOT_DIR . DS . 'environments' . DS . $name;
 		$fileList = FileHelper::findFilesWithPath($dir);
