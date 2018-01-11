@@ -10,6 +10,9 @@ use yii2lab\console\helpers\input\Question;
 class DefaultController extends Controller
 {
 	
+	/**
+	 * Manage project initialization files
+	 */
 	public function actionIndex($option = null)
 	{
 		$option = Question::displayWithQuit('Select operation', ['Update', 'Delete'], $option);
